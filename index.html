@@ -1,6 +1,6 @@
 <html>
 	<head>
-<link href="https://fonts.googleapis.com/css?family=Alegreya:900|Alegreya+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya:700,900|Alegreya+Sans" rel="stylesheet">
 	<style>
 		body {
 			color: #333;
@@ -13,6 +13,15 @@
 			color: #fffc40;
 			font-family: 'Alegreya', sans-serif;
 			font-size: 100px;
+			font-weight: 900;
+		}
+
+		h2 {
+			border-bottom: 5px solid #00e700;
+			color: #333;
+			font-family: 'Alegreya', sans-serif;
+			font-size: 60px;
+			font-weight: 700;
 		}
 
 		main {
@@ -30,6 +39,14 @@
 				<li>use git as normal while pairing - no special commands to learn</li>
 				<li>map GitHub usernames to emails automagically for you</li>
 				<li>allow pairing to be set a per-project basis</li>
+			</ul>
+			<h2>Install</h2>
+			<p>The best way to install is `brew install pear`.</p>
+			<h2>Setup</h2>
+			<p>Once installed, start by doing `pear init` - this will do a few things for you:</p>
+			<ul>
+				<li>create a `~/.pear-authors.json` file</li>
+				<li>globally ignore `.pear` files</li>
 			</ul>
 		</main>
 	</body>
